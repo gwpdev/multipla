@@ -17,18 +17,23 @@ Version: 1.0.0
 */
 
 @import url("../Divi/style.css");
-#hp-box1:hover {background-color: rgba( 0, 0, 0, 0.9 )!important; filter: none;-webkit-filter: grayscale(0); opacity: 1;}
-#hp-box1{  
+#hp-box1:hover {background-color: rgba( 0, 0, 0, 0.9 )!important; filter: none;-webkit-filter: grayscale(0); opacity: 1;
+	background-image: url(http://localhost:8080/multiplav2/wp-content/uploads/2015/07/fundo-luzes.jpg);
+  background-position: 1000px;
+}
+
+#hp-box1{ 
+	color: transparent;
 min-height: 500px;
 	filter: url('../js/filters.svg#grayscale');
   filter: gray;
   -webkit-filter: grayscale(1);
   max-width: 100%;
-  opacity: 0.4;
+  opacity: 0;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;}
 
-#hp-box1 h2, #hp-box1 a {font-family: 'Oregano', cursive; filter: none;-webkit-filter: grayscale(0); opacity: 1; z-index: 99;}
+#hp-box1 h2, #hp-box1 a {font-family: 'Oregano', cursive; filter: none;-webkit-filter: grayscale(0); opacity: 1;}
