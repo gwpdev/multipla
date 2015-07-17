@@ -1,0 +1,5 @@
+[16-Jul-2015 21:18:22] PHP Fatal error:  Cannot use object of type WP_Error as array in /home/guilh029/public_html/multiplav2/wp-content/themes/Divi/includes/builder/functions.php on line 1713
+[16-Jul-2015 21:18:36] PHP Fatal error:  Cannot use object of type WP_Error as array in /home/guilh029/public_html/multiplav2/wp-content/themes/Divi/includes/builder/functions.php on line 1713
+[17-Jul-2015 07:01:58] PHP Parse error:  syntax error, unexpected $end in /home/guilh029/public_html/multiplav2/wp-content/themes/Divi/functions.php on line 1387
+[17-Jul-2015 07:02:04] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/guilh029/public_html/multiplav2/wp-content/themes/Divi/functions.php on line 5301
+[17-Jul-2015 07:03:38] PHP Parse error:  syntax error, unexpected $end in /home/guilh029/public_html/multiplav2/wp-content/themes/Divi/functions.php on line 5647

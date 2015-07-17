@@ -37,7 +37,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					}
 				?>
 
-						<p id="footer-info"><?php printf( __( '© 2015 %1$s | Desenvolvido por: %2$s', 'Divi' ), '<a href="http://www.multiplaeventos.com.br" title="Criação de sites">MÚLTIPLA EVENTOS</a>', '<a href="http://www.guilhermewp.com.br">GWP - Criação de sites</a>' ); ?></p>
+						<p id="footer-info"><?php printf( __( 'Copyright © 2015 Múltipla Eventos %2$s', 'Divi' ), '<a href="http://www.multiplaeventos.com.br" title="Criação de sites">MÚLTIPLA EVENTOS</a>', '<a href="http://www.guilhermewp.com.br">SUPREMA</a>' ); ?></p>
 					</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->

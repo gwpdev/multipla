@@ -28,6 +28,9 @@ function et_setup_theme() {
 
 	register_nav_menus( array(
 		'primary-menu'   => __( 'Primary Menu', 'Divi' ),
+		'casamento-menu'   => __( 'Casamento Menu', 'Divi' ),
+		'debutante-menu'   => __( 'Debutante Menu', 'Divi' ),
+		'outroservicos-menu'   => __( 'Outrosservicos Menu', 'Divi' ),
 		'secondary-menu' => __( 'Secondary Menu', 'Divi' ),
 		'footer-menu'    => __( 'Footer Menu', 'Divi' ),
 	) );
