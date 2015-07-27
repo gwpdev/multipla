@@ -16,24 +16,164 @@ Version: 1.0.0
 
 */
 @import url("../Divi/style.css");
-/******* TIPOGRAFIA CASAMENTOS-PAGE*/
-#hp-box1 h2, #hp-box1 a, #hp-box2 h2, #hp-box2 a, .bullets-casamento h4, .menu-casamento, .menu-casamento-primario a  {font-family: 'Merienda One', cursive;} /*{font-family: 'Kranky', cursive; filter: none;-webkit-filter: grayscale(0); opacity: 1;}*/
+@import url(http://fonts.googleapis.com/css?family=Kalam);  
+
+.et_pb_row {
+  overflow: hidden;
+}
+/******TOPO**/
+#main-header {background-image: url(http://multipla.javalidigital.com.br/wp-content/uploads/2015/07/bkg-menu.png);}
+.et_pb_fullwidth_header .header-content h1 {padding-top: 99px;}
+.et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a {
+  padding: 10px!important;
+}
+#top-menu a, .fullwidth-menu a {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: none;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+#top-menu a:before, .fullwidth-menu a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f0e4d6;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#top-menu a:hover, .fullwidth-menu a:hover, #top-menu a:focus:active .fullwidth-menu a:focus:active{
+  color: #5d585b!important;
+}
+#top-menu a:hover:before, .fullwidth-menu a:hover:before, #top-menu a:focus:before, .fullwidth-menu a:focus:before, #top-menu a:active:before, .fullwidth-menu a:active:before{
+    -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*DEFINDO EFEITO ::AFTER - GERAL*/
+.titulo-multiplaparavoce h2::after, .titulo-onde h2::after, .titulo-assessoria h2::after, .titulo-eventos h2::after, .titulo-blog h2::after, .titulo-instagram h2::after, .titulo-contato h2::after, .titulo-multiplaparavoced h2::after, .titulo-onded h2::after, .titulo-assessoriad h2::after, .titulo-eventosd h2::after, .titulo-blogd h2::after, .titulo-instagramd h2::after, .titulo-contatod h2::after, .titulo-multiplaparavoceo h2::after, .titulo-ondeo h2::after, .titulo-assessoriao h2::after, .titulo-eventoso h2::after, .titulo-blogo h2::after, .titulo-instagramo h2::after, .titulo-contatoo h2::after {
+content: " ";
+    position: absolute;
+    /*word-wrap: break-word;*/
+    height: 2px;
+    border-bottom: 1px solid #f0e4d6;
+    border-top: 1px solid #f0e4d6;
+    top: 33px;
+    width: 1500%;
+    margin-left: 10px;
+    /*left: 411px;*/
+}
+/*#hp-box2
+/******* F I M ::AFTER - GERAL ***********/
+/*** AFTER POSITION- CASAMENTOS **/
+/*.titulo-onde h2::after {
+    left: 472px;
+}
+.titulo-assessoria h2::after {
+    left: 332px;
+}
+.titulo-eventos h2::after {
+    left: 290px;
+}
+.titulo-blog h2::after {
+    left: 99px;
+}
+.titulo-instagram h2::after {
+    left: 212px;
+}
+.titulo-contato h2::after {
+    left: 156px;
+}
+/*** AFTER POSITION- DEBUTANTES **/
+/*.titulo-onded h2::after {
+    left: 385px;
+}
+.titulo-assessoriad h2::after {
+    left: 332px;
+}
+.titulo-eventosd h2::after {
+    left: 290px;
+}
+.titulo-blogd h2::after {
+    left: 99px;
+}
+.titulo-instagramd h2::after {
+    left: 212px;
+}
+.titulo-contatod h2::after {
+    left: 156px;
+}
+/*** AFTER POSITION- OUTROS EVENTOS **/
+/*.titulo-multiplaparavoceo h2::after{
+    left: 402px;
+}
+.titulo-ondeo h2::after {
+    left: 398px;
+}
+.titulo-assessoriao h2::after {
+    left: 305px;
+}
+.titulo-eventoso h2::after {
+    left: 295px;
+}
+.titulo-blogo h2::after {
+    left: 98px;
+}
+.titulo-instagramo h2::after {
+    left: 210px;
+}
+.titulo-contatoo h2::after {
+    left: 157px;
+}
+
+/********TIPOGRAFIA NOVA - GERAL*********/
+h1, h2, h3, h4, h5, h6 {font-family: 'Dancing Script', cursive!important;}
+/*h1, h2, h3, h4, h5, h6 {font-family: 'Satisfy', cursive!important;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Kalam', cursive!important;}*/
+/******* TIPOGRAFIA CASAMENTOS-PAGE /*{font-family: 'Merienda One', cursive;}*/
+/*#hp-box1 h2, #hp-box1 a, #hp-box2 h2, #hp-box2 a, .bullets-casamento h4, .menu-casamento, .menu-casamento-primario a {font-family: 'Dancing Script', cursive;}*/
+/*#hp-box1 h2, #hp-box1 a, #hp-box2 h2, #hp-box2 a, .bullets-casamento h4, .menu-casamento, .menu-casamento-primario a  {font-family: 'Satisfy', cursive;}*/
+/*#hp-box1 h2, #hp-box1 a, #hp-box2 h2, #hp-box2 a, .bullets-casamento h4, .menu-casamento, .menu-casamento-primario a  {font-family: 'Kalam', cursive;}*/
 /******* TIPOGRAFIA DEBUTANTES-PAGE*/
 #hp-box3 a, #hp-box3 h2, .bullets-debutante h4, .menu-debutante, .menu-debutante-primario a {color: #8e44ad;}
+/*.et_pb_fullwidth_header {padding-bottom: 98px;}*
 /************* HEADER'S - CASAMENTO *******************/
 #top-header-casamentos{
-  background-color: #34495e!important;
+  background-color: #f0e4d6!important;
 }
-#top-header-casamentos a, #top-header-casamentos span{color: #f7e1e8!important;}
-.menu-casamento-primario a{color: #e91e63 !important;}
+#post-289 > div > div.et_pb_section.et_pb_fullwidth_section.et_pb_section_0.et_section_regular > section > div.et_pb_fullwidth_header_overlay {background-image: none!important; }
+#post-289 > div > div.et_pb_section.et_pb_fullwidth_section.et_pb_section_0.et_section_regular > section > div.et_parallax_bg {background-size: 100% 129%;}
+/*#top-header-casamentos a, #top-header-casamentos span{color: #5d585b!important;}*/
+/*.menu-casamento-primario a{color: #5d585b!important;}*/
 /************* HEADER'S - DEBUTANTE *******************/
 #top-header-debutante{
-  background-color: #8e44ad!important;
+  background-color: #f0e4d6!important;
 }
-#top-header-debutante a, #top-header-debutante span{color: #f7e1e8!important;}
-.menu-debutante-primario a, #menu-debutante-primario > a {color: #8e44ad!important;}
+/*#top-header-debutante a, #top-header-debutante span{color: #5d585b!important;}
+.menu-debutante-primario a, #menu-debutante-primario > a {color: #5d585b!important;}*/
 /*HOME*/
-#post-5 > div > div.et_pb_section.et_pb_section_video.et_pb_inner_shadow.et_pb_section_parallax.et_pb_fullwidth_section.et_pb_section_0.et_pb_with_background.et_section_regular.et_section_transparent > section > div.et_pb_fullwidth_header_container.center > div > div > img {width: 20%;}
+
+/*#post-5 > div > div.et_pb_section.et_pb_section_video.et_pb_inner_shadow.et_pb_section_parallax.et_pb_fullwidth_section.et_pb_section_0.et_pb_with_background.et_section_regular.et_section_transparent > section > div.et_pb_fullwidth_header_container.center > div > div > img {width: 20%;}
 #post-5 > div > div.et_pb_section.et_pb_section_video.et_pb_inner_shadow.et_pb_section_parallax.et_pb_fullwidth_section.et_pb_section_0.et_pb_with_background.et_section_regular.et_section_transparent > section > div.et_pb_fullwidth_header_container.center > div > div > a {
   background-image: -webkit-linear-gradient(-90deg, rgb(253,218,65) 0, rgb(195,92,0) 100%);
   background-image: -moz-linear-gradient(180deg, rgb(253,218,65) 0, rgb(195,92,0) 100%);
@@ -44,15 +184,48 @@ Version: 1.0.0
   background-clip: border-box;
   -webkit-background-size: auto auto;
   background-size: auto auto;
-}
+}*/
 /*TOPO*/
 #et_top_search{display: none;}
 #logo {min-height: 67%;}
-#hp-box2:hover {background-color: rgba( 0, 0, 0, 0.6 )!important; filter: none;-webkit-filter: grayscale(0); opacity: 1;}
-#hp-box1:hover {background-color: rgba( 0, 0, 0, 0.6 )!important; filter: none;-webkit-filter: grayscale(0); opacity: 1;
-	/*background-image: url(http://localhost:8080/multiplav2/wp-content/uploads/2015/07/fundo-luzes.jpg);*/
-  /*background-position: 1000px;*/
+/********BOX CIRCLE EFECTS*********/
+#hp-box3 {background-size: 100% 100%;}
+#hp-box2 img, #hp-box3 img{
+    min-width: 265px;
+max-width: 265px;
+padding: 10px;
+height: 272px;
+max-height: 275px;
+width: 100%;
+border-radius: 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 }
+#hp-box2:hover, #hp-box3:hover {
+  background-color: rgba( 0, 0, 0, 0.6 )!important; filter: none;-webkit-filter: grayscale(0); opacity: 1; -webkit-transition: all .8s;
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+/******** F I M BOX CIRCLE EFECTS*********/
+/*#hp-box2:hover {background-color: rgba( 0, 0, 0, 0.6 )!important; filter: none;-webkit-filter: grayscale(0); opacity: 1; background-size: 107% 120%;  -webkit-transition: all .8s;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+       }
+#hp-box1:hover {background-color: rgba( 0, 0, 0, 0.6 )!important; filter: none;-webkit-filter: grayscale(0); opacity: 1;
+  /*background-image: url(http://localhost:8080/multiplav2/wp-content/uploads/2015/07/fundo-luzes.jpg);
+  /*background-position: 1000px;
+}*/
 /*BLOCO 1 - IMG + TEXTO + VIDEO*/
 #post-289 > div > div.et_pb_section.et_pb_section_2.et_pb_with_background.et_section_regular > div.et_pb_row.et_pb_row_1.et_pb_equal_columns.et_pb_gutters2 > div.et_pb_column.et_pb_column_1_3.et_pb_column_1 {
   -webkit-box-shadow: inset 0px 0px 0px 20px rgba(200, 0, 0,0.2);
@@ -74,25 +247,34 @@ box-shadow: inset 0px 0px 0px 20px rgba(0, 0, 0,0.2);
 -moz-box-shadow: inset 0px 0px 0px 20px rgba(200, 0, 0,0.2);
 box-shadow: inset 0px 0px 0px 20px rgba(200, 0, 0,0.2);
 }
-
-#hp-box1 {min-height: 440px;}
-#hp-box2 {min-height: 320px;}
-#hp-box1, #hp-box2{ 
-	color: transparent;
-	filter: url('../js/filters.svg#grayscale');
+/*#boxhp2>.et_pb_column.et_pb_column_1_3 {border-radius: 100%;}*/
+#hp-box1 {min-height: 440px;  height:300px; padding: 170px!important;}
+#hp-box2 {height:310px; padding: 167px!important;}
+#hp-box3 {height: 251px; padding: 124px!important;}
+#hp-box2 a {width: 21%; height: 310px; margin-top: -174px!important; margin-left: -195px!important; padding: 196px;}
+#hp-box3 a {padding: 131px; width: 15%; height: 300px;}
+#hp-box1, #hp-box2{
+   width: 15%;;
+  border-radius: 100%;
+  color: transparent;
+  filter: url('../js/filters.svg#grayscale');
   filter: gray;
   -webkit-filter: grayscale(1);
   max-width: 100%;
-  opacity: 0;
+  /*opacity: 0;*/
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;}
-
+  -o-transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+#hp-box3 {
+   border-radius: 100%;
+}
 
 h1, h2 {font-family: 'Merienda One', cursive;}
-#post-5 > div > div.et_pb_section.et_pb_section_video.et_pb_inner_shadow.et_pb_section_parallax.et_pb_fullwidth_section.et_pb_section_0.et_pb_with_background.et_section_regular.et_section_transparent > section > div.et_pb_fullwidth_header_container.left > div.header-content-container.center > div > a, #top-header{
+/*#post-5 > div > div.et_pb_section.et_pb_section_video.et_pb_inner_shadow.et_pb_section_parallax.et_pb_fullwidth_section.et_pb_section_0.et_pb_with_background.et_section_regular.et_section_transparent > section > div.et_pb_fullwidth_header_container.left > div.header-content-container.center > div > a, #top-header{
 background-image: -webkit-linear-gradient(-90deg, rgb(253,218,65) 0, rgb(195,92,0) 100%);
 background-image: -moz-linear-gradient(180deg, rgb(253,218,65) 0, rgb(195,92,0) 100%);
 background-image: linear-gradient(180deg, rgb(253,218,65) 0, rgb(195,92,0) 100%);
@@ -102,11 +284,11 @@ background-origin: padding-box;
 background-clip: border-box;
 -webkit-background-size: auto auto;
 background-size: auto auto;
-}
+}*/
 #post-5 > div > div.et_pb_section.et_pb_section_video.et_pb_inner_shadow.et_pb_section_parallax.et_pb_fullwidth_section.et_pb_section_0.et_pb_with_background.et_section_regular.et_section_transparent > section > div.et_pb_fullwidth_header_container.left > div.header-content-container.center > div > a{
 text-shadow: 2px 0px 1px #000;
 }
-#footer-bottom {
+/*#footer-bottom {
 background-image: -webkit-linear-gradient(-90deg, rgb(253,218,65) 0, rgb(195,92,0) 100%);
 background-image: -moz-linear-gradient(180deg, rgb(253,218,65) 0, rgb(195,92,0) 100%);
 background-image: linear-gradient(180deg, rgb(253,218,65) 0, rgb(195,92,0) 100%);
@@ -116,7 +298,7 @@ background-origin: padding-box;
 background-clip: border-box;
 -webkit-background-size: auto auto;
 background-size: auto auto;
-}
+}*/
 /*#footer-info, #footer-info a {text-shadow: 2px 0px 1px #000;}*/
 /*****************CONTACT FORM************/
 .wpcf7-text, .wpcf7-textarea, .wpcf7-captchar  {
@@ -166,17 +348,24 @@ padding: 6px 20px !important;
 #footer-bottom {padding: 0px!important;}
 /******footer casamento******/
 #footer-bottom-casamento {
-    background-color: #34495e!important;
+    background-color: #f0e4d6!important;
     padding: 15px 0 5px;
 }
 #footer-bottom-casamento a, #footer-bottom-casamento span, #footer-bottom-casamento p {
-  color: #fff!important;
+  color: #5d585b!important;
 }
 /******footer debutante******/
 #footer-bottom-debutante {
-    background-color: #8e44ad!important;
+    background-color: #f0e4d6!important;
     padding: 15px 0 5px;
 }
 #footer-bottom-debutante a, #footer-bottom-debutante span, #footer-bottom-debutante p {
-  color: #fff!important;
+  color: #5d585b!important;
 }
+/********************************************************/
+#boxesteste > div.et_parallax_bg {z-index: -2;}
+#boxesteste > div.et_pb_row.et_pb_row_0.et_pb_row_fullwidth > div > div.et_pb_promo.et_pb_module.et_pb_bg_layout_dark.et_pb_text_align_center.et_pb_cta_0.et_pb_no_bg > div > h2 {
+ font-family: 'Merienda One', cursive;
+}
+#boxesteste {max-width: 100%!important; width: 100%!important;}
+#boxesteste1, #boxesteste2, #boxesteste3, #boxesteste4, #boxesteste5 {width: 100%; max-width: 19.4%; display: inline-block;}

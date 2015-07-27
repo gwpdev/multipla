@@ -31,6 +31,7 @@ function et_setup_theme() {
 		'casamento-menu'   => __( 'Casamento Menu', 'Divi' ),
 		'debutante-menu'   => __( 'Debutante Menu', 'Divi' ),
 		'outroservicos-menu'   => __( 'Outrosservicos Menu', 'Divi' ),
+		'destination-menu'   => __( 'Destination Menu', 'Divi' ),
 		'secondary-menu' => __( 'Secondary Menu', 'Divi' ),
 		'footer-menu'    => __( 'Footer Menu', 'Divi' ),
 	) );
