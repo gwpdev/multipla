@@ -27,6 +27,7 @@ Version: 1.0.0
 .et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a {
   padding: 10px!important;
 }
+#top-menu li, .fullwidth-menu li {padding-bottom: 25px;}
 #top-menu a, .fullwidth-menu a {
   display: inline-block;
   vertical-align: middle;
@@ -189,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Kalam', cursive!important;}*/
 #et_top_search{display: none;}
 #logo {min-height: 67%;}
 /********BOX CIRCLE EFECTS*********/
-#hp-box3 {background-size: 100% 100%;}
+#hp-box2, #hp-box3 {background-size: 100% 100%;}
 #hp-box2 img, #hp-box3 img{
     min-width: 265px;
 max-width: 265px;
